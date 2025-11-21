@@ -1,0 +1,14 @@
+.main {
+  width: 100%;
+  height: calc(100vh - 70px);
+  background: #dfdfe7;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.main > h2 {
+  font-size: 45px;
+  font-weight: 600;
+  color: #222222;
+}

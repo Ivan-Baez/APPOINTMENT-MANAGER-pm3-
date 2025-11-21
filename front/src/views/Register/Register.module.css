@@ -1,0 +1,61 @@
+.registerContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 40px 0;
+}
+
+.registerContainer > h2 {
+  font-size: 35px;
+  color: #222222;
+  margin-bottom: 20px;
+}
+
+.registerContainer > form {
+  background: #e4e4ff;
+  padding: 20px;
+  border-radius: 10px;
+  max-width: 700px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.inputGroup {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.inputGroup > label {
+  color: #666666;
+  font-weight: 600;
+}
+
+.inputGroup > input {
+  border: 0;
+  padding: 8px;
+  border-radius: 5px;
+  outline: 0;
+}
+
+.inputGroup > p {
+  color: red;
+}
+
+.registerContainer > form > button {
+  background: #6a6aff;
+  border: 0;
+  padding: 10px;
+  border-radius: 5px;
+  margin-top: 10px;
+  color: #fff;
+  font-weight: 600;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.registerContainer > form > button:hover {
+  opacity: 0.7;
+}

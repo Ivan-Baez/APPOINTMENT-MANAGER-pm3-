@@ -1,0 +1,38 @@
+{
+  "compilerOptions": {
+    // File Layout
+    "rootDir": "./src",
+    "outDir": "./dist",
+
+    // Environment Settings
+    "module": "commonjs",           // ← Cambiado de "nodenext"
+    "target": "ES2020",             // ← Cambiado de "esnext"
+    "lib": ["ES2020"],
+    "types": ["node"],
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+
+    // Other Outputs
+    "sourceMap": true,
+    "declaration": true,
+    "declarationMap": true,
+
+    // Stricter Typechecking Options
+    "noUncheckedIndexedAccess": true,
+    "exactOptionalPropertyTypes": true,
+
+    // Recommended Options
+    "strict": true,
+    "esModuleInterop": true,        // ← Importante para imports
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "strictPropertyInitialization": false,
+    "moduleResolution": "node",
+    "resolveJsonModule": true
+  },
+  "include": [
+    "src/**/*.ts",
+  
+  ],
+  "exclude": ["node_modules", "dist"]
+}

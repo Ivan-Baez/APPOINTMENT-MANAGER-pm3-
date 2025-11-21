@@ -1,0 +1,31 @@
+  .appointmentCard {
+  display: flex;
+  flex-direction: column;
+   gap: 10px;
+  text-align: center;
+  width: calc(100% - 30px);
+  background: #f1f1ff;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px,
+              rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+}
+
+/* Esta regla está vacía y genera advertencia */
+.appointmentCard > p > span {
+    font-weight: 600;
+}
+
+  .appointmentCard > button {
+    color: #fff;
+    background: #ff6b6b;
+    border:0;
+    padding: 8px 10px;
+    border: radius 10px; 
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.appointmentCard > button:hover {
+    opacity: 0.7;
+}
