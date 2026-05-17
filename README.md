@@ -1,4 +1,36 @@
 
+# Appointment Manager PM3
+
+## 📌 Descripción
+Aplicación full stack para la gestión de citas. Permite crear, listar y administrar turnos de manera sencilla, integrando frontend en **Next.js** y backend en **NestJS**.
+
+## 🚀 Instalación
+1. Clonar el repositorio:
+   ```bash
+   git clone https://github.com/Ivan-Baez/APPOINTMENT-MANAGER-pm3-.git
+
+cd frontend
+npm install
+cd ../backend
+npm install
+
+▶️ Uso
+npm run start:dev
+npm run dev
+
+Acceder desde el navegador en http://localhost:3000.
+
+🛠️ Tecnologías
+Frontend: Next.js
+
+Backend: NestJS
+
+Base de datos: Neon (PostgreSQL)
+
+Hosting: Railway
+
+Control de versiones: Git/GitHub
+
 🧩 User Stories PM3 – Backend
 - **Registro de usuarios**
 Como nuevo usuario,
@@ -50,3 +82,5 @@ Como desarrollador backend,
 quiero que la lógica esté separada de las rutas,
 para mantener el código limpio y facilitar el debugging.
 
+👤 Autor
+Ivan Báez
