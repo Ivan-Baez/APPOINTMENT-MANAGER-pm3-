@@ -1,76 +1,39 @@
-  front
-
-  
-https://appointment-manager-pm3-1.onrender.com
-
-
-
-<img width="797" height="668" alt="Captura de pantalla 2026-05-19 201703" src="https://github.com/user-attachments/assets/7540e461-9f47-4953-b619-14ecc599238c" />
-
-
-
-
-<img width="819" height="665" alt="Captura de pantalla 2026-05-19 201925" src="https://github.com/user-attachments/assets/65df21ae-544e-483a-ac69-f7a31a12b1ea" />
-
-
-
-<img width="794" height="666" alt="Captura de pantalla 2026-05-19 201820" src="https://github.com/user-attachments/assets/01c8587e-322e-4715-89fb-ff3a71ec1cb3" />
-
-
-
-<img width="803" height="594" alt="Captura de pantalla 2026-05-19 202138" src="https://github.com/user-attachments/assets/9d6a27a7-bc86-4e80-9108-e51c27a4619b" />
-
-
-
-<img width="809" height="685" alt="Captura de pantalla 2026-05-19 201644" src="https://github.com/user-attachments/assets/be77a483-37ec-4123-a106-390695377e9e" />
-
-
-
-
-
-
-
-
-
-
-  back
-
-https://appointment-manager-pm3.onrender.com
-
-
-
-
-
-<img width="604" height="558" alt="Captura de pantalla 2026-05-19 200222" src="https://github.com/user-attachments/assets/602fd1c4-04b9-45cd-a120-bba32889709d" />
-
-
-
-<img width="578" height="656" alt="Captura de pantalla 2026-05-19 200134" src="https://github.com/user-attachments/assets/8686e4c8-a6eb-4d89-b153-ce24a6ba812f" />
-
-
-
-
-# Appointment Manager PM3
+# 📅 Appointment Manager PM3
 
 ## 📌 Descripción
-Aplicación full stack para la gestión de citas. Permite crear, listar y administrar turnos de manera sencilla, integrando frontend en **Next.js** y backend en **NestJS**.
+Aplicación **full stack** para la gestión de citas. Permite crear, listar y administrar turnos de manera sencilla, integrando **frontend en Next.js** y **backend en NestJS**, con base de datos en **Neon (PostgreSQL)** y despliegue en **Render/Railway**.
 
-## 🚀 Instalación
+---
+
+## 🌐 Demo Online
+- **Frontend:** [Appointment Manager Front](https://appointment-manager-pm3-1.onrender.com)  
+- **Backend:** [Appointment Manager API](https://appointment-manager-pm3.onrender.com)  
+
+---
+
+## 🚀 Instalación Local
+
 1. Clonar el repositorio:
    ```bash
    git clone https://github.com/Ivan-Baez/APPOINTMENT-MANAGER-pm3-.git
-   
+
 2. Instalar dependencias en frontend y backend:
-cd frontend
-npm install
-cd ../backend
-npm install
+   cd frontend
+   npm install
+   cd ../backend
+   npm install
+3- Levantar los servicios:
+ 
+  Backend:
+  bash
+  npm run start:dev
 
-▶️ Uso
-npm run start:dev
-npm run dev
+ Frontend:
+ bash
+ npm run dev
 
-Acceder desde el navegador en http://localhost:3000.
+4- Acceder desde el navegador:
+👉 http://localhost:3000
 
 🛠️ Tecnologías
 Frontend: Next.js
@@ -79,60 +42,67 @@ Backend: NestJS
 
 Base de datos: Neon (PostgreSQL)
 
-Hosting: Railway
+Hosting: Render / Railway
 
 Control de versiones: Git/GitHub
 
-🧩 User Stories PM3 – Backend
-- **Registro de usuarios**
-Como nuevo usuario,
-quiero poder registrarme con mis datos personales,
-para acceder a la plataforma y comenzar a usar sus funcionalidades.
+📷 Capturas de pantalla
+Frontend
+https://github.com/user-attachments/assets/7540e461-9f47-4953-b619-14ecc599238c  
+https://github.com/user-attachments/assets/65df21ae-544e-483a-ac69-f7a31a12b1ea  
+https://github.com/user-attachments/assets/01c8587e-322e-4715-89fb-ff3a71ec1cb3  
+https://github.com/user-attachments/assets/9d6a27a7-bc86-4e80-9108-e51c27a4619b  
+https://github.com/user-attachments/assets/be77a483-37ec-4123-a106-390695377e9e
 
-- **Autenticación**
-Como usuario registrado,
-quiero iniciar sesión con mis credenciales,
-para acceder a mi cuenta de forma segura.
+Backend
+https://github.com/user-attachments/assets/602fd1c4-04b9-45cd-a120-bba32889709d  
+https://github.com/user-attachments/assets/8686e4c8-a6eb-4d89-b153-ce24a6ba812f
 
-- **Gestión de credenciales**
-Como administrador del sistema,
-quiero que las credenciales de los usuarios se almacenen de forma segura,
-para proteger la información sensible y evitar accesos no autorizados.
+🧩 User Stories – Backend
+Registro de usuarios: como nuevo usuario quiero registrarme con mis datos personales.
 
-- **Consulta de usuarios**
-Como administrador,
-quiero poder obtener la lista de todos los usuarios registrados,
-para gestionar el acceso y monitorear la actividad del sistema.
+Autenticación: como usuario registrado quiero iniciar sesión con mis credenciales.
 
-- **Consulta de usuario por ID**
-Como administrador,
-quiero poder buscar un usuario por su ID,
-para ver sus datos específicos y realizar acciones sobre su cuenta.
+Gestión de credenciales: como admin quiero que las credenciales se almacenen de forma segura.
 
-- **Validación de datos de entrada**
-Como desarrollador backend,
-quiero validar los datos que llegan al servidor antes de procesarlos,
-para evitar errores y mantener la integridad del sistema.
+Consulta de usuarios: como admin quiero obtener la lista de usuarios registrados.
 
-- **Estructura modular de servicios**
-Como desarrollador backend,
-quiero que cada funcionalidad esté separada en servicios independientes,
-para facilitar el mantenimiento, la escalabilidad y la reutilización del código.
+Consulta por ID: como admin quiero buscar un usuario por su ID.
 
-- **Uso de DTOs para entrada y salida**
-Como desarrollador backend,
-quiero definir DTOs para cada operación,
-para asegurar que los datos tengan una estructura clara y controlada.
+Validación de datos: como dev quiero validar la entrada antes de procesarla.
 
-- **Simulación con arrays locales**
-Como desarrollador backend,
-quiero simular la base de datos usando arrays locales,
-para poder testear la lógica sin depender de un entorno externo.
+Estructura modular: cada funcionalidad separada en servicios.
 
-- **Separación entre lógica y rutas**
-Como desarrollador backend,
-quiero que la lógica esté separada de las rutas,
-para mantener el código limpio y facilitar el debugging.
+Uso de DTOs: asegurar estructura clara en entrada/salida.
+
+Simulación con arrays locales: testear lógica sin DB externa.
+
+Separación lógica/rutas: mantener código limpio y escalable.
+
+
+## 🏗️ Arquitectura del Proyecto
+
+El sistema se compone de tres capas principales:
+
+- **Frontend (Next.js)** → Interfaz de usuario, desplegado en Render.  
+- **Backend (NestJS)** → API REST, desplegado en Render.  
+- **Base de datos (Neon PostgreSQL)** → Almacenamiento de usuarios y turnos.  
+
+```mermaid
+graph TD;
+  A[Frontend - Next.js] --> B[Backend - NestJS];
+  B --> C[(Neon PostgreSQL)];
+
+
 
 👤 Autor
 Ivan Báez
+
+GitHub
+
+LinkedIn
+
+
+
+
+
