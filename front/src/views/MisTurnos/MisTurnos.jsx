@@ -19,7 +19,7 @@ function MisTurnos() {
       setLoading(true);
       setError(null);
       // ✅ Ruta corregida: busca turnos por userId
-      const response = await axios.get(`http://localhost:8080/appointments/user/${user.id}`);
+      const response = await axios.get(`${import.meta.env.VITE_API_URL}/appointments/user/${user.id}`);
       setAppointments(response.data);
     } catch (error) {
       console.error(error);

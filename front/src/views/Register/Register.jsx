@@ -2,6 +2,7 @@ import axios from "axios";
 import { useState } from "react";
 import { validateRegister } from "../../helpers/validateRegister";
 import styles from "./Register.module.css";
+
 function Register() {
   const initialState = {
     name: "",
@@ -33,7 +34,12 @@ function Register() {
         return alert("Hay errores en el formulario");
       }
 
-      const response = await axios.post("http://localhost:8080/users/register",form);
+      // ✅ URL corregida: usa la variable de entorno
+      const response = await axios.post(
+        `${import.meta.env.VITE_API_URL}/users/register`,
+        form
+      );
+
       console.log(response.data);
       setErrors(initialState);
       alert("Usuario registrado con éxito");
@@ -58,7 +64,7 @@ function Register() {
           {errors.name && <p>{errors.name}</p>}
         </div>
 
-        <div className={styles.inputGroup} >
+        <div className={styles.inputGroup}>
           <label>Email</label>
           <input
             type="text"

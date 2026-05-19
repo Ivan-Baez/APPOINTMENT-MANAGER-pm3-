@@ -1,10 +1,4 @@
 
-
-
-
-
-
-
 import { AppDataSource } from "./config/data-source";
 import { PORT } from "./config/envs";
 import server from "./server";

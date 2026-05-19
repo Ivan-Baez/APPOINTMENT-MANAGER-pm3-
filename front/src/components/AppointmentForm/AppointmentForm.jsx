@@ -1,7 +1,7 @@
 import { ErrorMessage, Field, Form, Formik } from "formik";
 import { validateAppointment } from "../../helpers/validateAppointment";
 import axios from "axios";
-import styles from './appointmentForm.module.css';
+import styles from './AppointmentForm.module.css';
 
 function AppointmentForm({ onAddAppointment }) {
   const initialState = {
@@ -18,7 +18,7 @@ function AppointmentForm({ onAddAppointment }) {
       }
 
       const response = await axios.post(
-        "http://localhost:8080/appointments/schedule",
+        `${import.meta.env.VITE_API_URL}/appointments/schedule`,
         {
           ...values,
           userId: user.id,

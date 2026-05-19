@@ -5,7 +5,7 @@ import styles from "./Login.module.css";
 import { useNavigate } from "react-router-dom";
 
 function Login() {
-const navigate = useNavigate();
+  const navigate = useNavigate();
 
   const initialState = {
     username: "",
@@ -14,7 +14,12 @@ const navigate = useNavigate();
 
   const handleSubmit = async (values) => {
     try {
-      const response = await axios.post("http://localhost:8080/users/login", values);
+      // ✅ URL corregida: usa la variable de entorno
+      const response = await axios.post(
+        `${import.meta.env.VITE_API_URL}/users/login`,
+        values
+      );
+
       localStorage.setItem("user", JSON.stringify(response.data.user));
       window.dispatchEvent(new Event("userchange"));
       navigate("/");
@@ -28,7 +33,11 @@ const navigate = useNavigate();
   return (
     <main className={styles.loginContainer}>
       <h2>Login</h2>
-      <Formik initialValues={initialState} validate={validateLogin} onSubmit={handleSubmit}>
+      <Formik
+        initialValues={initialState}
+        validate={validateLogin}
+        onSubmit={handleSubmit}
+      >
         <Form>
           <div className={styles.inputGroup}>
             <label>Nombre de usuario</label>
@@ -39,7 +48,7 @@ const navigate = useNavigate();
           </div>
           <div className={styles.inputGroup}>
             <label>Contraseña</label>
-            <Field type="text" name="password" />
+            <Field type="password" name="password" />
             <p>
               <ErrorMessage name="password" />
             </p>
