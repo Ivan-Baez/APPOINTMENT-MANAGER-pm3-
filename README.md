@@ -22,7 +22,7 @@ https://appointment-manager-pm3-1.onrender.com
 
 
 
-
+<img width="797" height="668" alt="Captura de pantalla 2026-05-19 201703" src="https://github.com/user-attachments/assets/7540e461-9f47-4953-b619-14ecc599238c" />
 
 
 
@@ -30,7 +30,7 @@ https://appointment-manager-pm3-1.onrender.com
 
 https://appointment-manager-pm3.onrender.com
 
-<img width="797" height="668" alt="Captura de pantalla 2026-05-19 201703" src="https://github.com/user-attachments/assets/7540e461-9f47-4953-b619-14ecc599238c" />
+
 
 
 
