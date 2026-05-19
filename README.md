@@ -5,6 +5,11 @@ https://appointment-manager-pm3-1.onrender.com
 
 
 
+<img width="797" height="668" alt="Captura de pantalla 2026-05-19 201703" src="https://github.com/user-attachments/assets/7540e461-9f47-4953-b619-14ecc599238c" />
+
+
+
+
 <img width="819" height="665" alt="Captura de pantalla 2026-05-19 201925" src="https://github.com/user-attachments/assets/65df21ae-544e-483a-ac69-f7a31a12b1ea" />
 
 
@@ -22,7 +27,6 @@ https://appointment-manager-pm3-1.onrender.com
 
 
 
-<img width="797" height="668" alt="Captura de pantalla 2026-05-19 201703" src="https://github.com/user-attachments/assets/7540e461-9f47-4953-b619-14ecc599238c" />
 
 
 
