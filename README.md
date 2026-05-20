@@ -46,7 +46,6 @@ Hosting: Render / Railway
 
 Control de versiones: Git/GitHub
 
-## 📷 Capturas de pantalla
 
 ## 📷 Capturas de pantalla
 
@@ -63,8 +62,8 @@ Control de versiones: Git/GitHub
 
 ### Backend
 <img src="https://github.com/user-attachments/assets/602fd1c4-04b9-45cd-a120-bba32889709d" width="600" /><br/><br/>
-<img src="https://github.com/user-attachments/assets/8686e4c8-a6eb-4d89-b153-ce24a6ba812f" width="600" />
 
+<img src="https://github.com/user-attachments/assets/8686e4c8-a6eb-4d89-b153-ce24a6ba812f" width="600" /><br/><br/>
 
 
 🧩 User Stories – Backend
