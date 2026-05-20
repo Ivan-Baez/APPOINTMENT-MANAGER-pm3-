@@ -18,6 +18,7 @@ Aplicación **full stack** para la gestión de citas. Permite crear, listar y ad
    git clone https://github.com/Ivan-Baez/APPOINTMENT-MANAGER-pm3-.git
 
 2. Instalar dependencias en frontend y backend:
+
    cd frontend
    npm install
    cd ../backend
