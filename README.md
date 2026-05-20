@@ -22,15 +22,16 @@ Aplicación **full stack** para la gestión de citas. Permite crear, listar y ad
    npm install
    cd ../backend
    npm install
+   
 3- Levantar los servicios:
  
   Backend:
   bash
   npm run start:dev
 
- Frontend:
- bash
- npm run dev
+  Frontend:
+  bash
+  npm run dev
 
 4- Acceder desde el navegador:
 👉 http://localhost:3000
