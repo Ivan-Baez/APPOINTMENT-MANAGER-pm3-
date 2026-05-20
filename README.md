@@ -88,10 +88,10 @@ El sistema se compone de tres capas principales:
 
 - **Frontend (Next.js)** → Interfaz de usuario, desplegado en Render.  
 - **Backend (NestJS)** → API REST, desplegado en Render.  
-- **Base de datos (Neon PostgreSQL)** → Almacenamiento de usuarios y turnos.  
+- **Base de datos (Neon PostgreSQL)** → Almacenamiento de usuarios y turnos.
 
-```mermaid
-graph TD;
+- 
+  graph TD;
   A[Frontend - Next.js] --> B[Backend - NestJS];
   B --> C[(Neon PostgreSQL)];
 
@@ -100,9 +100,6 @@ graph TD;
 👤 Autor
 Ivan Báez
 
-GitHub
-
-LinkedIn
 
 
 
