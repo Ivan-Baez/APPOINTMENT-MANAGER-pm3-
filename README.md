@@ -52,9 +52,13 @@ Control de versiones: Git/GitHub
 
 ### Frontend
 <img src="https://github.com/user-attachments/assets/7540e461-9f47-4953-b619-14ecc599238c" width="600" /><br/><br/>
+
 <img src="https://github.com/user-attachments/assets/65df21ae-544e-483a-ac69-f7a31a12b1ea" width="600" /><br/><br/>
+
 <img src="https://github.com/user-attachments/assets/01c8587e-322e-4715-89fb-ff3a71ec1cb3" width="600" /><br/><br/>
+
 <img src="https://github.com/user-attachments/assets/9d6a27a7-bc86-4e80-9108-e51c27a4619b" width="600" /><br/><br/>
+
 <img src="https://github.com/user-attachments/assets/be77a483-37ec-4123-a106-390695377e9e" width="600" /><br/><br/>
 
 ### Backend
