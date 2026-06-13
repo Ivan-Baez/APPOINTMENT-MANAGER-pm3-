@@ -1,7 +1,7 @@
 # 📅 Appointment Manager PM3
 
 ## 📌 Descripción
-Aplicación **full stack** para la gestión de citas. Permite crear, listar y administrar turnos de manera sencilla, integrando **frontend en Next.js** y **backend en NestJS**, con base de datos en **Neon (PostgreSQL)** y despliegue en **Render/Railway**.
+Aplicación **full stack** para la gestión de citas. Permite crear, listar y administrar turnos de manera sencilla, integrando **frontend en Next.js** y **backend en NestJS**, con base de datos en **Neon (PostgreSQL)** y despliegue en **Render**.
 
 ---
 
